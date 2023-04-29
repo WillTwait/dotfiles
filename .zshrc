@@ -98,9 +98,9 @@ prompt pure
 alias zshconfig="open ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
 alias tendy="cd ~/Tendrel/git/tendrel"
-alias frontend="cd ~/Tendrel/git/poc-frontend-react-native"
 
 export DEV_SSO_PROFILE=will-real-dev
 export AWS_PROFILE=will-real-dev
 export CDK_DEFAULT_ACCOUNT=852186938708
 export CDK_DEFAULT_REGION=us-west-2
+eval "$(direnv hook zsh)"
