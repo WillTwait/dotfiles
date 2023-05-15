@@ -64,7 +64,7 @@ ZSH_THEME=""
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fzf aliases zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git fzf aliases zsh-syntax-highlighting zsh-autosuggestions direnv)
 
 source $ZSH/oh-my-zsh.sh
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
@@ -98,5 +98,3 @@ prompt pure
 alias zshconfig="open ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
 alias tendy="cd ~/Tendrel/git/tendrel"
-
-eval "$(direnv hook zsh)"
