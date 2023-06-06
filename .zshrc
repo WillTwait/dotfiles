@@ -94,7 +94,10 @@ prompt pure
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+# Aliases
 alias zshconfig="open ~/.zshrc"
 alias ohmyzsh="open ~/.oh-my-zsh"
 alias tendy="cd ~/Tendrel/git/tendrel"
+alias dbstart="brew services run postgresql@14"
+alias dbopen="psql postgres"
+alias dbstop="brew services stop postgresql@14"
